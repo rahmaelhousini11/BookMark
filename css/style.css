@@ -1,0 +1,95 @@
+body {
+    background-color: #F7ECDE;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 600;
+
+}
+
+.main h1 {
+
+
+    color: rgba(53, 46, 40);
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 500;
+
+}
+
+.main h1::before {
+    content: '';
+    background-color: #FEC260;
+    width: 19.5%;
+    height: 18px;
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+    z-index: -1;
+    transition: height 0.5s;
+}
+
+.main h1:hover::before {
+    height: 40px;
+}
+
+.main {
+    border-bottom: 2px dotted #000;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    background: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.form-control:focus {
+    color: #212529;
+    border-color: #d99c39;
+    box-shadow: 0 0 0 0.30rem #fec26055;
+}
+
+.bt1 {
+    border: 1px solid #C04423;
+    background-color: #dd542e;
+    color: #fff;
+    padding: 7px 60px;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+.bt1:hover {
+    background-color: #BB4120;
+}
+
+.forms {
+    border-bottom: 2px dotted #000;
+}
+
+.bt2 {
+    background-color: #9ab126;
+    color: #fff;
+    padding: 7px 10px;
+    border: 1px solid #9ab126;
+    transition: all 0.5s;
+}
+
+.bt2:hover {
+    background-color: #8A9E23;
+}
+
+.bt3 {
+    background-color: #ef0a25;
+    color: #fff;
+    padding: 7px 10px;
+    border: 1px solid #ef0a25;
+    transition: all 0.5s;
+}
+
+.bt3:hover {
+    background-color: #D30820;
+}
